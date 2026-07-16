@@ -25,4 +25,10 @@ udp://122.112.208.1
 ```
 
 如果是你想要TCP模式 ，例如：tcp://119.29.29.29
-#如果你想要指定网站走指定DNS 可以这么表达 [/baidu.com/]119.29.29.29
+
+如果你想要指定网站走指定DNS 可以这么表达 [/baidu.com/]119.29.29.29
+
+您也可以使用加密DNS DoH：  https://doh.pub/dns-query  https://dns.alidns.com/dns-query  
+或者DoT:[阿里] dns.alidns.com [腾讯]dot.pub 你可以这么写 ：tcp://dns.alidns.com 或者 udp://dns.alidns.com
+
+==施工中==
