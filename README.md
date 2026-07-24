@@ -41,6 +41,16 @@ udp://122.112.208.1
    
    如果你上游服务器使用的DNS是DoH形式的 ，这里务必填写IPV4的DNS地址 ，不然AdGuard Home无法直接访问https建议：[腾讯]119.29.29.29  [阿里] 223.5.5.5
 
+5. 私人反向 DNS 服务器
+
+   如果你记得住IP地址对应的设备（静态IP地址设定过），可以空着不写。 但是如果你想在客户端排行不是显示IP地址，显示设备名称，那么请你填写上游IP地址（DHCP分配的路由地址）
+
+6. DNS黑名单介绍
    
+  ```
+AdGuard DNS filter   https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+anti-AD   https://anti-ad.net/easylist.txt
+
+  ```
 
 ==施工中==
