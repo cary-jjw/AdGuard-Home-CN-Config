@@ -49,8 +49,13 @@ udp://122.112.208.1
    
   ```
 AdGuard DNS filter   https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-anti-AD   https://anti-ad.net/easylist.txt
+anti-AD              https://anti-ad.net/easylist.txt
+秋风.top             https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+秋风手机             https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Replenish.txt
 
   ```
+正常开启 AdGuard DNS filter + anti-AD  完全没有问题 。不建议使用过多的黑名单 1，网页打开会异常 2，增加系统负担。
+如果你是小内存设备 建议使用 秋风 名单小，但命中率高。
+
 
 ==施工中==
